@@ -1,0 +1,65 @@
+.modal-header {
+    border-bottom: none !important;
+}
+
+.div-padding {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.footer-menu{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.footer-menu:hover{
+    color: #8dadc3;
+    font-weight: 600;
+}
+
+.error {
+    border: 2px solid #FF6565;
+  }
+
+  .error-message {
+    color: #FF6565;
+    padding: .5em .2em;
+    height: 1em;
+    position: absolute;
+    font-size: .8em;
+  }
+
+  .btn-submit{
+    display: inline-block;
+    padding: 0.7em 1.7em;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    text-align: center;
+    transition: all 0.2s;
+    border-radius: 0px;
+    outline: none;
+    background-color: #151515;
+    opacity: 0.8;
+    border-color: none;
+    border: 0;
+    color:#FFFFFF;
+  }
+  
+  .btn-submit:hover{
+    background-color: #313131;
+    outline: none;
+    border: 0;
+  }
+
+  .btn-submit:disabled{
+    background-color: #4e4e4e;
+    outline: none;
+    border: 0;
+    cursor: not-allowed;
+  }
+  
+  .modal-content {
+    border-radius: 0px !important;
+  }
