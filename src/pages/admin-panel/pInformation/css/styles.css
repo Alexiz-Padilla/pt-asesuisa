@@ -1,0 +1,26 @@
+.dropdown-toggle::after {
+    display: block !important;
+    color: transparent !important;
+}
+
+.ddl-menu {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    outline: none !important;
+    outline-color: transparent !important;
+    box-shadow: none !important;
+    border-radius: 300px !important;
+}
+
+.ddl-menu:hover{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.ddl-menu:focus{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.icon-ddl-menu {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1em;
+}
